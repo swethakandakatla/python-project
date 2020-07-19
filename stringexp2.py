@@ -1,0 +1,17 @@
+str1=input("enter the string")
+str2="pythonpok"
+
+print(str1[::-1])
+print(str1.upper())
+print(str1.lower())
+print(''.join(sorted(str1)))
+print(len(str1))
+print(str1.split())
+print(str1.strip(''))
+print("samanvitha"+"sriansha")
+print("kartik"*3)
+print('y' in str2)
+print(str2.find("o"))
+print(str2.rfind("o"))
+str3=str2.replace("python","java")
+print(str3)
